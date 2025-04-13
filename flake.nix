@@ -21,6 +21,9 @@
             buildInputs = with pkgs; [
               platformio
             ];
+            shellHook = ''
+              pio run -t compiledb
+            '';
           };
         }
       );
