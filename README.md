@@ -13,3 +13,16 @@ Optionally generate `compile_commands.json` for clangd
 ```bash
 platformio run -t compiledb
 ```
+
+# Example Connection
+
+| ESP32 DOIT DEVKIT V1 | ST7789 |
+| -------------------- | ------ |
+| GND                  | GND    |
+| 3V3                  | VCC    |
+| GPIO18 (SCK)         | SCL    |
+| GPIO23 (MOSI)        | SDA    |
+| GPIO4                | RES    |
+| GPIO2                | DC     |
+| GPIO15               | CS     |
+| -                    | BLK    |
