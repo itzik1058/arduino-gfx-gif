@@ -16,6 +16,8 @@ platformio run -t compiledb
 
 # Example Connection
 
+Definitions in `include/config.h`
+
 | ESP32 DOIT DEVKIT V1 | ST7789 |
 | -------------------- | ------ |
 | GND                  | GND    |
